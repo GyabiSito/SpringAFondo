@@ -1,0 +1,22 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean name="hospital" class="com.gyabisito.springcore.Hospital">
+        <property name="nombre">
+            <value>Hospital</value>
+        </property>
+        <property name="departments">
+<!--            <value> Si solo hay 1 elemento, el list es opcional </value>-->
+            <list>
+                <value>D1</value>
+                <value>D2</value>
+                <value>D3</value>
+                <value>D4</value>
+            </list>
+        </property>
+
+    </bean>
+</beans>

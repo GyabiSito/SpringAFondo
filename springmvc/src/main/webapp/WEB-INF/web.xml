@@ -1,0 +1,12 @@
+<!-- src/main/webapp/WEB-INF/web.xml (para Tomcat 11 / Jakarta) -->
+<web-app>
+  <display-name>Hello Spring MVC</display-name>
+  <servlet>
+    <servlet-name>dispatcher</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dispatcher</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+</web-app>
