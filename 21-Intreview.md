@@ -122,6 +122,3 @@
 | Singleton Scope | Un solo bean por contenedor                                    |
 | Prototype Scope | Bean nuevo cada vez que se solicita                            |
 | Bean Lifecycle  | Desde creación e inyección, hasta destrucción controlada       |
-
-
-Estas preguntas son muy comunes en entrevistas técnicas de Java/Spring y dominarlas te ayudará a destacar 🚀
